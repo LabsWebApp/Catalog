@@ -1,0 +1,6 @@
+﻿dotnet tool install --global dotnet-ef
+
+dotnet ef update latest version
+
+dotnet ef migrations add CreateDB
+dotnet ef database update
